@@ -1,0 +1,100 @@
+@media only screen and (max-width: 768px) {
+
+    .bg-img  .top-header .navbar a img{
+        width:30px;
+        height:30px;
+    }
+
+    .bg-img .d-flex li a {
+        font-size: 10px;
+    }
+
+    /* Start  */
+    .hammenu .click .list a{
+        font-size: 25px;
+    }
+
+    .hammenu .close{
+        font-size: 14px;
+    }
+
+    .hammenu .closeMenu {
+        font-size: 30px;
+    }
+
+    .hammenu .click .list {
+        font-size: 20px;
+        margin: 16px 0px;
+    }
+    .hammenu .buttons a .btn{
+        width:180px;
+        height:50px;
+        padding: 20px;
+        font-size: 18px;
+        margin-right: 20px;
+    }
+
+    
+    .hammenu .search .search-bar{
+        width:400px;
+        height:50px;
+        margin-right: 20px;
+    }
+    
+    .hammenu .search .search-bar input{
+        width:290px;
+        height:30px;
+    }
+    
+    .hammenu .foot{
+        font-size: 16px;
+    }
+    /* End  */
+    .bg-img .description .animated_text{
+        width:60%;
+    }
+    .bg-img .description h1{
+        font-size:60px;
+    }
+    .bg-img .description .animated_text span{
+        font-size: 15px;
+    }
+
+    .investers h1 {
+        font-size: 35px;
+    }
+    
+    .underline2 {
+        width: 150px;
+        margin-top: 0.4rem;
+    }
+    
+    .roadmap .col-lg-12 h1 {
+        font-size: 35px;
+    }
+    
+    .roadmap .col-lg-12 .underline {
+        width: 150px;
+        margin-top: 0.4rem;
+    }
+
+    .news .col-lg-12 h1 {
+        font-size: 35px;
+    }
+    
+    .news .col-lg-12 .underline {
+        width: 150px;
+        margin-top: 0.4rem;
+    }
+
+    .news .row .col-lg-12 .newsList span
+    {
+        font-size: 23px;
+    }
+
+    .news .row .col-lg-12 .newsList p
+    {
+        font-size: 18px;
+    }
+
+}

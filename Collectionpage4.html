@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Linking CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <!-- Linking Media Query -->
+
+  <link rel="stylesheet" href="./assets/css/LargeDevice.css" />
+  <link rel="stylesheet" href="./assets/css/MediumDevice.css" />
+  <link rel="stylesheet" href="./assets/css/phone.css" />
+  <link rel="stylesheet" href="./assets/css/extraLarge.css">
+  <!-- Adding icon -->
+  <link rel="icon" href="./assets/img/retina-logo.png" />
+  <!-- Linking Font Awesome for more icons -->
+  <script src="https://kit.fontawesome.com/87f40b1c1f.js" crossorigin="anonymous"></script>
+
+  <title>Collection-Neoh's</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+
+    <style>
+        .bg-img .description .deschead .animated_text span{
+            font-family: open sans;
+            text-transform: uppercase;
+            font-size:80px;
+            letter-spacing: 4px;
+        }
+        .bg-img {
+            width: 100%;
+            height: 70vh;
+            position: relative;
+            background: url(./assets/img/Blogbg.jpg)center center /cover;
+        }
+
+        .bg-img::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            opacity: 0.8;
+        }
+
+        .drops .pagechange{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top:40px;
+            background-color: transparent;
+            color: var(--font-color);
+        }
+        .drops .pagechange ul{
+            border: 2px solid var(--btn-color);
+            border-radius: 10px;
+        }
+        .drops .pagechange ul li a{
+            background-color: #111111;
+            color: var(--font-color);
+            font-family: open sans;
+        }
+
+    </style>
+</head>
+
+<body>
+  <div class="cursor"></div>
+  <div class="cursor2"></div>
+    <div class="bg-img">
+        <div class="top-header" id="navbar_top">
+          <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./assets/img/retina-logo.png" alt="" /></a>
+              <div class="d-flex" role="search">
+                <ul class="menu navbar-nav me-auto mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">MENU</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active openMenu" aria-current="page" href="#"><img src="./assets/img/hamburger1.png"
+                        alt="" /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="description">
+          <div class="col-lg-12">
+            <h1 class="text-white">Neoh</h1>
+            <p class="animated_text">
+              <span style="animation-delay: 0s">C</span><span style="animation-delay: 0.04s">o</span><span
+                style="animation-delay: 0.08s">l</span><span style="animation-delay: 0.12s">l</span><span
+                style="animation-delay: 0.16s">e</span><span style="animation-delay: 0.2s">c</span><span
+                style="animation-delay: 0.24s">t</span><span style="animation-delay: 0.28s">i</span><span
+                style="animation-delay: 0.32s">o</span></span><span style="animation-delay: 0.36s">n</span><span
+                style="animation-delay: 0.4s">/</span><span style="animation-delay: 0.44s">H</span><span
+                style="animation-delay: 0.48s">o</span><span style="animation-delay: 0.52s">m</span><span
+                style="animation-delay: 0.56s">e</span>
+            </p>
+          </div>
+        </div>
+        <aside>
+          <div class="hammenu">
+            <div class="hamburger">
+              <div class="black-cover"></div>
+              <div class="pad">
+                <div class="close">
+                  <span>Close</span>
+                  <div class="closeMenu">
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                </div>
+                <ul class="click">
+                  <li class="list" style="animation-delay: 1s;"><a href="./index.html">Home</a></li>
+                  <li class="list list-1" style="animation-delay: 1.5s;"><a href="./About.html">About us</a></li>
+                  <li class="list list-2" style="animation-delay: 1.6s;"><a href="./Collection.html">Collections</a></li>
+                  <li class="list list-3" style="animation-delay: 1.7s;"><a href="./Roadmap.html">Roadmap</a></li>
+                  <li class="list list-4" style="animation-delay: 1.8s;"><a href="./News.html">Blog</a></li>
+                  <li class="list list-5" style="animation-delay: 1.9s;"><a href="./Contact.html">Contact</a></li>
+                </ul>
+                <div class="buttons">
+                  <a href=""><button class="btn"><i class="fa-solid fa-ship"></i><span>Open Sea</span></button></a>
+                  <a href=""><button class="btn"><i
+                        class="fa-brands fa-discord dic"></i></i><span>Discord</span></button></a>
+                </div>
+                <div class="search">
+                  <div class="search-bar">
+                    <label for="search"></label>
+                    <input type="text" placeholder="Search here...">
+                  </div>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+              </div>
+              <div class="foot">
+                <div class="copy">
+                  <p>Copyright 2022 - Designed & Developed by Nilesh</p>
+                </div>
+                <div class="icons">
+                  <a href=""><i class="fa-brands fa-facebook"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  <a href=""><i class="fa-brands fa-youtube"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  <a href=""><i class="fa-brands fa-telegram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+  <section>
+    <div class="drops">
+      <div class="col-lg-12">
+        <h1><span>All Items</span></h1>
+      </div>
+      <div class="row">
+        <div class="collectionList">
+          <div class="collections">
+            <div class="collec"><img class="img-fluid" src="./assets/img/unnamed (1).png" alt=""></div>
+            <span>Neoh #4527</span>
+          </div>
+          <div class="collections">
+            <div class="collec"><img class="img-fluid" src="./assets/img/unnamed (2).png" alt=""></div>
+            <span>Neoh #4528</span>
+          </div>
+          <div class="collections">
+            <div class="collec"><img class="img-fluid" src="./assets/img/unnamed(3).jpg" alt=""></div>
+            <span>Neoh #4529</span>
+          </div>
+          <div class="collections">
+            <div class="collec"><img class="img-fluid" src="./assets/img/unnamed.png" alt=""></div>
+            <span>Neoh #4530</span>
+          </div>
+        </div>
+      </div>
+      <nav aria-label="..." class="pagechange">
+        <ul class="pagination pagination-lg">
+          <li class="page-item"><a class="page-link" href="./Collection.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="./Collectionpage2.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="./Collectionpage3.html">3</a></li>
+          <li class="page-item active" aria-current="page">
+            <span class="page-link">4</span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+  <footer>
+    <section class = "sub">
+      <div class="description">
+        <img src="./assets/img/retina-logo.png" alt="">
+        <h1>Join Now For Early Access</h1>
+        <p>Morbi non dignissim erat, a blandit felis nec lorem vel orci varius congue ut vitae est. Nam quis tempus nisl. Fusce posuere nibh a mi molestie, sit amet ornare</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-7 col-sm-7">
+            <div class="emailbox">
+              <label for="search">
+                  <input type="email" class="searchNow" placeholder="Enter your email address ...">
+              </label>
+          </div>
+          </div>
+          <div class="col-lg-5 col-md-5 col-sm-5">
+            <button class="btn">SUBSCRIBE</button>
+          </div>
+        </div>
+      </div>
+      <div class="socialicons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-telegram"></i>
+    </div>
+    </section>
+    <section class = "copylast">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <span>Copyright 2022 - Designed & Developed by Nilesh</span>
+          </div>
+          <div class="col-lg-6">
+            <div class="footextra">
+              <span>Coming Soon</span>
+              <span>Collection</span>
+              <span>RoadMap</span>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </section>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

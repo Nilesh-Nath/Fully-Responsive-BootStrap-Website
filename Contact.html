@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Linking CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <!-- Linking Media Query -->
+
+  <link rel="stylesheet" href="./assets/css/LargeDevice.css" />
+  <link rel="stylesheet" href="./assets/css/MediumDevice.css" />
+  <link rel="stylesheet" href="./assets/css/phone.css" />
+  <link rel="stylesheet" href="./assets/css/extraLarge.css">
+  <!-- Adding icon -->
+  <link rel="icon" href="./assets/img/retina-logo.png" />
+  <!-- Linking Font Awesome for more icons -->
+  <script src="https://kit.fontawesome.com/87f40b1c1f.js" crossorigin="anonymous"></script>
+
+  <title>Neoh-Contact</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+
+    <style>
+        .bg-img {
+            width: 100%;
+            height: 70vh;
+            position: relative;
+            background: url(./assets/img/Blogbg.jpg)center center /cover;
+        }
+    
+        .bg-img::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            opacity: 0.8;
+        }
+    
+        .ContactForm{
+            width:100%;
+            background-color: var(--back-color);
+            padding: 200px 0px;
+        }
+
+        .ContactForm .row{
+            width:35%;
+            margin:0px auto;
+        }
+        
+        .ContactForm .row .formentity{
+            font-family: open sans;
+            font-size: 20px;
+            color: grey;
+        }
+        
+        .ContactForm .row .inparea{
+            width:100%;
+            border:2px solid #666666;
+            background-color: #181818;
+            padding:18px;
+            outline:white;
+            font-size: 20px;
+            font-family: open sans;
+        }
+
+        .ContactForm .row button{
+            width:100%;
+            padding:18px;
+            border:2px solid #666666;
+            text-transform: uppercase;
+            color: gray;
+            font-weight: bolder;
+            background-color: transparent;
+            font-size: 18px;
+            font-family: open sans;
+            transition: all 0.8s ease-in-out;
+            margin-top: 10px;
+        }
+
+        .ContactForm .row button:hover{
+            cursor: pointer;
+            border:2px solid var(--hover-color);
+        }
+
+        .ContactForm .row .des p{
+            color:grey;
+            font-family: open sans;
+            font-size: 22px;
+            margin: 45px 0px 27px 0px
+        }
+
+        .ContactForm .row .location h3{
+            font-family: open sans;
+            color:gray;
+            text-transform: uppercase;
+            font-size: 18px;
+            margin-top: 40px;
+        }
+
+        .ContactForm .row .location span{
+            font-family: open sans;
+            color:white;
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+
+        .ContactForm .row .location .underline a{
+            font-family: open sans;
+            color:gray;
+            font-size: 20px;
+            margin-bottom: 20px;
+            text-transform: lowercase;
+            transition:all 0.2s linear;
+        }
+
+        .ContactForm .row .location .underline a:hover{
+            text-decoration-color: white;
+        }
+
+        /* Mediaquery */
+
+        @media (max-width:800px) {
+            .ContactForm .row .des p{
+            font-size: 18px;
+        }
+
+        .ContactForm .row .location h3{
+            font-size: 14px;
+        }
+
+        .ContactForm .row .location span{
+            font-size: 25px;
+        }
+        .ContactForm .row .location .underline a{
+            font-size: 17px;
+        }
+        .ContactForm .row .formentity{
+            font-size: 18px;
+        }
+        
+        .ContactForm .row .inparea{
+            padding:15px;
+            font-size: 18px;
+        }
+
+        .ContactForm .row button{
+            padding:18px;
+            font-size: 15px;
+        }
+        }
+        @media (max-width:500px) {
+            .ContactForm .row .des p{
+            font-size: 12px;
+        }
+
+        .ContactForm .row .location h3{
+            font-size: 10px;
+        }
+
+        .ContactForm .row .location span{
+            font-size: 17px;
+        }
+        .ContactForm .row .location .underline a{
+            font-size: 15px;
+        }
+        .ContactForm .row .formentity{
+            font-size: 12px;
+        }
+        
+        .ContactForm .row .inparea{
+            padding:6px;
+            font-size: 12px;
+        }
+
+        .ContactForm .row button{
+            padding:13px;
+            font-size: 12px;
+        }
+        }
+        @media (max-width:400px) {
+            .ContactForm .row .des p{
+            font-size: 8px;
+        }
+
+        .ContactForm .row .location h3{
+            font-size: 8px;
+        }
+
+        .ContactForm .row .location span{
+            font-size: 14px;
+        }
+        .ContactForm .row .location .underline a{
+            font-size: 12px;
+        }
+        }
+        </style>
+</head>
+
+<body>
+  <div class="cursor"></div>
+  <div class="cursor2"></div>
+    <div class="bg-img">
+        <div class="top-header" id="navbar_top">
+          <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./assets/img/retina-logo.png" alt="" /></a>
+              <div class="d-flex" role="search">
+                <ul class="menu navbar-nav me-auto mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">MENU</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active openMenu" aria-current="page" href="#"><img src="./assets/img/hamburger1.png"
+                        alt="" /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="description">
+          <div class="col-lg-12">
+            <h1 class="text-white">Neoh</h1>
+            <p class="animated_text">
+              <span style="animation-delay: 0s">C</span><span style="animation-delay: 0.04s">o</span><span
+                style="animation-delay: 0.08s">n</span><span style="animation-delay: 0.12s">t</span><span
+                style="animation-delay: 0.16s">a</span><span style="animation-delay: 0.2s">c</span><span
+                style="animation-delay: 0.24s">t</span><span style="animation-delay: 0.28s">/</span><span
+                style="animation-delay: 0.32s">H</span></span><span style="animation-delay: 0.36s">o</span><span
+                style="animation-delay: 0.4s">m</span><span style="animation-delay: 0.44s">e</span>
+            </p>
+          </div>
+        </div>
+        <aside>
+          <div class="hammenu">
+            <div class="hamburger">
+              <div class="black-cover"></div>
+              <div class="pad">
+                <div class="close">
+                  <span>Close</span>
+                  <div class="closeMenu">
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                </div>
+                <ul class="click">
+                  <li class="list" style="animation-delay: 1s;"><a href="./index.html">Home</a></li>
+                  <li class="list list-1" style="animation-delay: 1.5s;"><a href="./About.html">About us</a></li>
+                  <li class="list list-2" style="animation-delay: 1.6s;"><a href="./Collection.html">Collections</a></li>
+                  <li class="list list-3" style="animation-delay: 1.7s;"><a href="./Roadmap.html">Roadmap</a></li>
+                  <li class="list list-4" style="animation-delay: 1.8s;"><a href="./News.html">Blog</a></li>
+                  <li class="list list-5" style="animation-delay: 1.9s;"><a href="./Contact.html">Contact</a></li>
+                </ul>
+                <div class="buttons">
+                  <a href=""><button class="btn"><i class="fa-solid fa-ship"></i><span>Open Sea</span></button></a>
+                  <a href=""><button class="btn"><i
+                        class="fa-brands fa-discord dic"></i></i><span>Discord</span></button></a>
+                </div>
+                <div class="search">
+                  <div class="search-bar">
+                    <label for="search"></label>
+                    <input type="text" placeholder="Search here...">
+                  </div>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+              </div>
+              <div class="foot">
+                <div class="copy">
+                  <p>Copyright 2022 - Designed & Developed by Nilesh</p>
+                </div>
+                <div class="icons">
+                  <a href=""><i class="fa-brands fa-facebook"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  <a href=""><i class="fa-brands fa-youtube"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  <a href=""><i class="fa-brands fa-telegram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+    <section>
+        <div class="ContactForm">
+                <div class="row">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputName1" class="form-label formentity">Name</label>
+                          <input type="text" class="form-control inparea" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Your Name">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label formentity">Email address</label>
+                          <input type="email" class="form-control inparea" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputSub1" class="form-label formentity">Subject</label>
+                          <input type="text" class="form-control inparea" id="exampleInputSub1" placeholder="Your Subject">
+                        </div>
+                        <div class="mb-4">
+                            <label for="floatingTextarea2" class=" formentity mb-2">Message</label>
+                            <textarea class="form-control inparea" placeholder="Your Message" id="floatingTextarea2" style="height: 100px"></textarea>
+                          </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div class="des">
+                        <p>Duis eu lorem ut mauris pulvinar auctor. Maecenas et dapibus orci, eleifend euismod justo. Quisque luctus turpis eu tristique feugiat.
+                        </p>
+                        <p>Praesent ac magna feugiat, interdum lacus ac, interdum dui. Pellentesque id quam quis enim malesuada rutrum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                        </p>
+                    </div>
+                    <div class="location">
+                        <h3>Address</h3>
+                        <span>Baneswor,Kathmandu Nepal</span>
+                        <h3>Phone</h3>
+                        <span>(+977) 9812567898</span><br>
+                        <h3 class="underline"><a href = "">neohsnft@gmail.com </a></h3>
+                    </div>
+                </div>
+        </div>
+    </section>
+  <footer>
+    <section class = "sub">
+      <div class="description">
+        <img src="./assets/img/retina-logo.png" alt="">
+        <h1>Join Now For Early Access</h1>
+        <p>Morbi non dignissim erat, a blandit felis nec lorem vel orci varius congue ut vitae est. Nam quis tempus nisl. Fusce posuere nibh a mi molestie, sit amet ornare</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-7 col-sm-7">
+            <div class="emailbox">
+              <label for="search">
+                  <input type="email" class="searchNow" placeholder="Enter your email address ...">
+              </label>
+          </div>
+          </div>
+          <div class="col-lg-5 col-md-5 col-sm-5">
+            <button class="btn">SUBSCRIBE</button>
+          </div>
+        </div>
+      </div>
+      <div class="socialicons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-telegram"></i>
+    </div>
+    </section>
+    <section class = "copylast">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <span>Copyright 2022 - Designed & Developed by Nilesh</span>
+          </div>
+          <div class="col-lg-6">
+            <div class="footextra">
+              <span>Coming Soon</span>
+              <span>Collection</span>
+              <span>RoadMap</span>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </section>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+
+</html>

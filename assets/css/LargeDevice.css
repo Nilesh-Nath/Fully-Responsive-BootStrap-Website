@@ -1,0 +1,407 @@
+@media  (max-width: 1496px) {
+    .bg-img .description .animated_text{
+        width:50%;
+    }
+    .bg-img .description h1{
+        font-size: 90px;
+    }
+    .bg-img .description .animated_text span{
+        font-size: 20px;
+    }
+    .about .row .col-lg-6 h1{
+        font-size: 30px;
+    }
+    .about .row .col-lg-6 p{
+        font-size: 1.3rem;
+    }
+    .about .row .col-lg-6 .description a .btn{
+        width:180px;
+        height:50px;
+        font-size: 20px;
+    }
+    .bg-img .hammenu{
+        width:80%;
+    }
+    /* Start  */
+    .hammenu .click .list a{
+        font-size: 25px;
+    }
+
+    .hammenu .close{
+        font-size: 14px;
+    }
+
+    .hammenu .closeMenu {
+        font-size: 30px;
+    }
+
+    .hammenu .click .list {
+        font-size: 20px;
+        margin: 16px 0px;
+    }
+    .hammenu .buttons a .btn{
+        width:180px;
+        height:50px;
+        padding: 20px;
+        font-size: 18px;
+        margin-right: 20px;
+    }
+
+    
+    .hammenu .search .search-bar{
+        width:400px;
+        height:50px;
+        margin-right: 20px;
+    }
+    
+    .hammenu .search .search-bar input{
+        width:290px;
+        height:30px;
+    }
+    
+    .hammenu .foot{
+        font-size: 16px;
+    }
+    /* End  */
+}
+
+@media  (max-width:1400px) {
+    .about .row .col-lg-6 h1{
+        font-size: 25px;
+    }
+    .about .row .col-lg-6 p{
+        font-size: 1.2rem;
+    }
+    .about .row .col-lg-6 .description a .btn{
+        width:180px;
+        height:50px;
+        font-size: 20px;
+    }
+
+    .gallery h2 {
+        font-size: 18px;
+    }
+    
+    .gallery p span {
+        font-size: 14px;
+    }
+
+    .emailbox
+    {
+        width:300px;
+        height:45px;
+    }
+    .searchNow
+    {
+        width:300px;
+        height:40px;
+    }
+
+    .sub .container .col-lg-5 .btn{
+        font-size: 14px;
+        width:180px;
+        height:45px;
+    }
+
+    .grid .col-lg-5 .description h2{
+        font-size: 21px;
+    }
+    .grid .col-lg-5 .description p{
+        font-size: 19px;
+    }
+    .grid .col-lg-5 .description button{
+        margin-top: 1.6rem;
+        font-size: 13px;
+    }
+}
+
+@media (max-width:1300px) {
+    .about .row .col-lg-6 p{
+        margin-bottom: 20px;
+        font-size: 1.1rem;
+    }
+    .about .row .col-lg-6 .description a .btn{
+        width:175px;
+        height:45px;
+        font-size: 18px;
+    }
+
+    .emailbox
+    {
+        width:300px;
+        height:45px;
+    }
+    .searchNow
+    {
+        width:300px;
+        height:40px;
+    }
+
+    .sub .container .col-lg-5 .btn{
+        width:180px;
+        font-size: 14px;
+        height:45px;
+    }
+
+    .bg-img .hammenu{
+        width:90%;
+    }
+}
+@media (max-width:1200px) {
+    .about .row .col-lg-6 #fpara{
+        display: none;
+    }
+    .about .row .col-lg-6 .description a .btn{
+        width:170px;
+        height:40px;
+        font-size: 16px;
+    }
+    .grid .col-lg-5 .description h2{
+        font-size: 18px;
+    }
+    .grid .col-lg-5 .description p{
+        font-size: 16px;
+        margin-top: 1rem;
+    }
+    .grid .col-lg-5 .description button{
+        margin-top: 1.6rem;
+        font-size: 13px;
+    }
+    .grid .col-lg-7 .girls .img3{
+        margin-top: 1rem;
+    }
+    .smallbtn
+    {
+        font-size: 12px;
+        width:100px;
+    }
+    .grid .col-lg-5 .description button{
+        margin-top: 0.4rem;
+        font-size: 10px;
+    }
+
+}
+@media (max-width:1152px) {
+    .about .row .col-lg-6 h1{
+        font-size: 23px;
+    }
+    
+    .gallery h2 {
+        font-size: 15px;
+    }
+    
+    .gallery p span {
+        font-size: 12px;
+    }
+    
+    .whyus .col-lg-12 h1 {
+        font-size: 38px;
+    }
+    
+    .whyus .col-lg-12 h1 span {
+        font-size: 38px;
+    }
+    .bg-img .hammenu{
+        width:100%;
+    }
+    /* Start  */
+    .hammenu .click .list a{
+        font-size: 25px;
+    }
+
+    .hammenu .close{
+        font-size: 14px;
+    }
+
+    .hammenu .closeMenu {
+        font-size: 30px;
+    }
+
+    .hammenu .click .list {
+        font-size: 20px;
+        margin: 16px 0px;
+    }
+    .hammenu .buttons a .btn{
+        width:180px;
+        height:50px;
+        padding: 20px;
+        font-size: 18px;
+        margin-right: 20px;
+    }
+
+    
+    .hammenu .search .search-bar{
+        width:400px;
+        height:50px;
+        margin-right: 20px;
+    }
+    
+    .hammenu .search .search-bar input{
+        width:290px;
+        height:30px;
+    }
+    
+    .hammenu .foot{
+        font-size: 16px;
+    }
+    /* End  */
+}
+@media (max-width:1089px) {
+    .about .row .col-lg-6 h1{
+        font-size: 21px;
+    }
+    .about .row .col-lg-6 p{
+        font-size: 1rem;
+    }
+    .gallery h2 {
+        font-size: 13px;
+    }
+    
+    .gallery p span {
+        font-size: 10px;
+    }
+    .gallery {
+        width: 300px;
+        height: 350px;
+        padding: 20px;
+    }
+    .whyus .col-lg-12 h1 {
+        font-size: 28px;
+    }
+    
+    .whyus .col-lg-12 h1 span {
+        font-size: 28px;
+    }
+}
+@media (max-width:1025px) {
+    .about .row .col-lg-6 h1{
+        font-size: 19px;
+    }
+    .about .row .col-lg-6 p{
+        font-size: 0.9rem;
+    }
+}
+@media (max-width:992px){
+    .about .row .description{
+        /* border: 1px solid red; */
+        padding:60px 0px;
+    }
+
+    .gallery{
+        margin-bottom: 40px;
+    }
+    .emailbox
+    {
+        width:300px;
+        height:45px;
+    }
+    .searchNow
+    {
+        width:300px;
+        height:40px;
+    }
+
+    .sub .container .col-lg-5 .btn{
+        width:180px;
+        height:45px;
+    }
+    .sub .description h1
+    {
+        font-size: 35px;
+    }
+
+    .sub .description p
+    {
+        font-size: 18px;
+    }
+
+    .grid .col-lg-5 .description{
+        margin-top:50px;
+    }
+
+    .grid .col-lg-5 {
+        padding-left: 0rem;
+    }
+
+    .roadmap h1 {
+        font-size: 35px;
+    }
+    
+    .roadmap .underline2 {
+        width: 150px;
+        margin-bottom: 6rem;
+    }
+}
+@media (max-width:741px) {
+    .sub .description h1
+    {
+        font-size: 30px;
+    }
+
+    .sub .description p
+    {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:634px) {
+    .sub .description h1
+    {
+        font-size: 26px;
+    }
+
+    .sub .description p
+    {
+        font-size: 12px;
+    }
+}
+@media (max-width:676px) {
+    .news .row .col-lg-12 .newsList span
+    {
+        font-size: 19px;
+    }
+
+    .news .row .col-lg-12 .newsList p
+    {
+        font-size: 16px;
+    }
+
+    .smallbtn
+    {
+        font-size: 16px;
+        width:130px;
+    }
+
+}
+@media (max-width:645px){
+    .drops .col-lg-12 h1{
+        font-size: 35px;
+    }
+    
+    .drops .col-lg-12 h1 span {
+        font-size: 35px;
+    }
+    
+    .collec{
+        width:400px;
+        height:400px;
+    }
+    .collections {
+        margin: 20px 20px;
+        width: 404px;
+        height: 460px;
+    }
+    .collec img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .roadmap h1 {
+        font-size: 30px;
+    }
+    
+    .roadmap .underline2 {
+        width: 130px;
+        margin-bottom: 6rem;
+    }
+}

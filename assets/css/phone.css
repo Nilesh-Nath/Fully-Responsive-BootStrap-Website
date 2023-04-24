@@ -1,0 +1,350 @@
+@media (max-width:645px){
+    .news .row .col-lg-12 .newsList span
+    {
+        font-size: 16px;
+    }
+
+    .news .row .col-lg-12 .newsList p
+    {
+        font-size: 10px;
+    }
+
+    /* Start  */
+    
+    .hammenu .search .search-bar{
+        width:300px;
+        height:40px;
+        margin-right: 20px;
+    }
+    
+    .hammenu .search .search-bar input{
+        width:250px;
+        height:30px;
+    }
+    
+    .hammenu .foot{
+        font-size: 12px;
+    }
+    /* End  */
+}
+
+@media  (max-width: 576px) {
+    .bg-img .navbar-brand img{
+        width:25px;
+        height:25px;
+    }    
+
+    .bg-img .navbar{
+        padding:10px 0px;
+    }
+    .bg-img .d-flex li a{
+        font-size: 10px;
+        margin-right: 15px;
+    }
+
+    .bg-img .d-flex li img{
+        width:60px;
+        height:30px;
+    }
+
+    .bg-img .description .animated_text{
+        width:70%;
+    }
+
+    .gallery1{
+        margin-top: 0px;
+    }
+   
+    .gallery {
+        width: 440px;
+        height: 350px;
+    }
+    .whyus .col-lg-12 h1 {
+        margin-bottom: 100px;
+    }
+
+    .emailbox
+    {
+        width:180px;
+        height:30px;
+        padding:-23px 0px;
+    }
+
+    .searchNow
+    {
+        width:180px;
+        height:30px;
+        font-size: 13px;
+        padding:8px;
+    }
+
+    .sub .container .col-lg-5 .btn{
+        width:100px;
+        height:20px;
+        font-size: 10px;
+        padding:14px;
+    }
+     
+    .sub .row{
+        flex-wrap: nowrap;
+    }
+
+    .sub .container .col-lg-7{
+        margin-left:30px;
+        width:210px;
+        justify-content: flex-end;
+    }
+
+    .sub .container .col-lg-5{
+        width:100px;
+        height:25px;
+    }
+
+    /* Start  */
+    
+    .hammenu .search .search-bar{
+        width:250px;
+        height:40px;
+        margin-right: 20px;
+    }
+    
+    .hammenu .search .search-bar input{
+        width:200px;
+        height:30px;
+    }
+    
+    .hammenu .foot{
+        font-size: 12px;
+    }
+
+    .hammenu .foot .icons a i{
+        font-size: 16px;
+    }
+    .hammenu .pad {
+        padding: 0px 0px;
+    }
+    .hammenu .foot {
+        padding: 25px 23px;
+    }
+    /* End  */
+}
+
+@media (max-width:460px){
+
+    .bg-img .description h1{
+        font-size: 60px;
+    }
+    .about .row .col-lg-6 h1{
+        /* border: 2px solid salmon; */
+        font-size: 10px;
+    }
+    .about .row .col-lg-6 p{
+        font-size: 0.6rem;
+    }
+    .about .row .col-lg-6 .description a .btn{
+        width:140px;
+        height:30px;
+        font-size: 11px;
+    }
+    .collec{
+        width:300px;
+        height:300px;
+    }
+    .collections {
+        margin: 20px 20px;
+        width: 304px;
+        height: 360px;
+    }
+    .collec img {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .drops .bot {
+        font-size: 12px;
+    }
+
+    .drops .col-lg-12 h1{
+        font-size: 26px;
+    }
+    
+    .drops .col-lg-12 h1 span {
+        font-size: 26px;
+    }
+
+    .investers h1 {
+        font-size: 28px;
+    }
+    
+    .underline2 {
+        width: 110px;
+        margin-top: 0.4rem;
+    }
+    
+    .roadmap .col-lg-12 h1 {
+        font-size: 28px;
+    }
+    
+    .roadmap .col-lg-12 .underline {
+        width: 110px;
+        margin-top: 0.4rem;
+    }
+
+    .news .col-lg-12 h1 {
+        font-size: 28px;
+    }
+    
+    .news .col-lg-12 .underline {
+        width: 110px;
+        margin-top: 0.4rem;
+    }
+
+    .roadmap h1 {
+        font-size: 25px;
+    }
+    
+    .roadmap .underline2 {
+        width: 100px;
+        margin-bottom: 6rem;
+    }
+
+    /* Start  */
+    
+    .hammenu .buttons a .btn{
+        width:140px;
+        height:40px;
+        padding: 20px;
+        font-size: 12px;
+        margin-right: 20px;
+    }
+
+    
+    .hammenu .search .search-bar{
+        width:160px;
+        height:40px;
+        margin-right: 20px;
+    }
+    
+    .hammenu .search .search-bar input{
+        width:180px;
+        height:30px;
+    }
+    
+    .hammenu .foot{
+        font-size: 8px;
+    }
+
+    .hammenu .foot .icons a i{
+        font-size: 11px;
+    }
+
+    .hammenu .pad {
+        padding: 0px 0px;
+    }
+    .hammenu .foot {
+        padding: 25px 23px;
+    }
+    /* End  */
+}
+
+@media (max-width:369px) {
+    .about .row .col-lg-6 .description a .btn{
+        width:120px;
+        height:30px;
+        font-size: 10px;
+        padding: 10px;
+    }
+    .collec{
+        width:200px;
+        height:200px;
+    }
+    .collections {
+        margin: 20px 20px;
+        width: 204px;
+        height: 260px;
+    }
+    .collec img {
+        width: 200px;
+        height: 200px;
+    }
+    .drops .bot {
+        font-size: 12px;
+    }
+
+    .drops .col-lg-12 h1{
+        font-size: 24px;
+    }
+    
+    .drops .col-lg-12 h1 span {
+        font-size: 24px;
+    }
+
+    .sub .row .col-lg-7{
+        display: none;
+    }
+    .sub .row{
+        justify-content: center;
+    }
+
+    .hammenu .buttons a .btn {
+        width: 100px;
+        height: 30px;
+        padding: 10px;
+        font-size: 9px;
+        margin-right: 20px;
+    }
+
+    
+    .hammenu .search .search-bar {
+        width: 120px;
+        height: 28px;
+        margin-right: 20px;
+    }
+    
+    .hammenu .search .search-bar input{
+        width:180px;
+        height:30px;
+        font-size: 10px;
+    }
+    
+    .hammenu .foot{
+        font-size: 8px;
+    }
+
+    .hammenu .foot .icons a i{
+        font-size: 11px;
+    }
+
+    .hammenu .pad {
+        padding: 0px 0px;
+    }
+    .hammenu .foot {
+        padding: 25px 23px;
+    }
+    /* End  */
+    .hammenu .pad {
+        padding: 0px 0px;
+    }
+    .hammenu .foot {
+        padding: 25px 23px;
+    }
+}
+
+@media (max-width:341px) {
+    .bg-img .description h1 {
+        font-size: 40px;
+    }
+    .bg-img .description .animated_text span {
+        font-size: 10px;
+    }
+}
+@media (max-width:320px) {
+    .about .col-lg-6 .description p{
+        font-size: 10px;
+    }
+
+    .about .row .col-lg-6 .description a .btn{
+        width:110px;
+        height:30px;
+    }
+}
